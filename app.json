@@ -2,6 +2,7 @@
   "expo": {
     "name": "react-mobile-app",
     "slug": "react-mobile-app",
+    "owner": "hulchenko",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hulchenko.reactmobileapp"
     },
     "android": {
       "adaptiveIcon": {
